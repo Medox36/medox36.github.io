@@ -15,7 +15,10 @@ body {
     padding: 0;
     background-color: #FFFFFFFF;
     min-height: 100vh;
+}
 
+.headline {
+    margin-bottom: 64px;
 }
 
 .separator {
@@ -52,4 +55,9 @@ body {
 
 .date {
     margin-top: 6px;
+}
+
+.article_text {
+    max-width: 640px;
+    margin: 0 auto;
 }
