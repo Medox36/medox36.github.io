@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F5F5;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+.pageholder {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFFFF;
+    min-height: 100vh;
+
+}
+
+.separator {
+    border-bottom: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 16px;
+}
+
+.title {
+    padding-top: 160px;
+    margin-bottom: 16px;
+}
+
+#title {
+    max-width: 640px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.abstract {
+    max-width: 640px;
+    padding: 0;
+    margin: 0 auto 56px;
+}
+
+#abstract {
+    margin-bottom: 16px;
+}
+
+.author {
+    text-align: left;
+}
+
+.date {
+    margin-top: 6px;
+}
