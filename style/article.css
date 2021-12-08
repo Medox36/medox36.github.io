@@ -52,6 +52,8 @@ body {
 
 .header_right {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .headline {
@@ -65,6 +67,14 @@ body {
     margin-bottom: 16px;
 }
 
+.progress {
+    height: 10px;
+    background-color: #276678;
+    top: 0;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
 .title {
     padding-top: 160px;
     margin-bottom: 16px;
@@ -74,6 +84,11 @@ body {
     max-width: 640px;
     padding: 0;
     margin: 0 auto;
+    font-size: 40px;
+}
+
+#title_h1 {
+    margin-bottom: 20px;
 }
 
 .abstract {
@@ -84,17 +99,51 @@ body {
 
 #abstract {
     margin-bottom: 16px;
+    font-size: 27px;
+    font-family: Garamond, serif;
 }
 
 .author {
     text-align: left;
+    font-size: 15px;
 }
 
 .date {
     margin-top: 6px;
+    font-size: 20px;
 }
 
 .article_text {
     max-width: 640px;
     margin: 0 auto;
+}
+
+#text_container {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-family: Georgia, serif;
+}
+
+#to_top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    right: 30px;
+    background-color: #1687A7; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+    float: left;
+}
+
+#to_top:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.footer {
+
 }
