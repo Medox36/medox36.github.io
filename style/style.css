@@ -54,3 +54,18 @@ div.bottom-footer {
     align-items: center;
 }
 
+.footer-content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content hr {
+    background-color: black;
+}
+
