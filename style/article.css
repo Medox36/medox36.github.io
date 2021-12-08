@@ -67,6 +67,26 @@ body {
     margin-bottom: 16px;
 }
 
+.progress_part {
+    z-index: 1;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+}
+
+/* The progress container (grey background) */
+.progress_container {
+    height: 8px;
+    background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress_bar {
+    height: 8px;
+    background: #276678;
+    width: 0;
+}
+
 .progress {
     height: 10px;
     background-color: #276678;
