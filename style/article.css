@@ -69,7 +69,6 @@ body {
 
 .progress_part {
     z-index: 1;
-    background-color: #FFFFFF;
     position: sticky;
     top: 0;
 }
@@ -107,6 +106,10 @@ body {
     height: 60px;
     background-color: #1687A7;
     text-align: center;
+}
+
+.toStartPage:hover {
+    background-color: #555;
 }
 
 #toStartPage {
