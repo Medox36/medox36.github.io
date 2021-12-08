@@ -17,6 +17,18 @@ body {
     min-height: 100vh;
 }
 
+.header {
+    min-height: 56px;
+    margin: 0;
+}
+
+.header_main {
+    height: 56px;
+    padding: 0 40px;
+    max-width: 1200px;
+    background-color: #1687A7;
+}
+
 .headline {
     margin-bottom: 64px;
 }
