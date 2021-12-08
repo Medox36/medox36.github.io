@@ -52,6 +52,8 @@ body {
 
 .header_right {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .headline {
@@ -82,6 +84,11 @@ body {
     max-width: 640px;
     padding: 0;
     margin: 0 auto;
+    font-size: 40px;
+}
+
+#title_h1 {
+    margin-bottom: 20px;
 }
 
 .abstract {
@@ -92,19 +99,29 @@ body {
 
 #abstract {
     margin-bottom: 16px;
+    font-size: 27px;
+    font-family: Garamond, serif;
 }
 
 .author {
     text-align: left;
+    font-size: 15px;
 }
 
 .date {
     margin-top: 6px;
+    font-size: 20px;
 }
 
 .article_text {
     max-width: 640px;
     margin: 0 auto;
+}
+
+#text_container {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-family: Georgia, serif;
 }
 
 #to_top {
@@ -128,5 +145,5 @@ body {
 }
 
 .footer {
-    background-color: #555555;
+
 }
