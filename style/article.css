@@ -95,6 +95,30 @@ body {
     margin-bottom: 10px;
 }
 
+.toStartPage_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 640px;
+    margin: 20px auto;
+}
+
+.toStartPage {
+    width: 120px;
+    height: 60px;
+    background-color: #1687A7;
+    text-align: center;
+}
+
+#toStartPage {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+
 .title {
     padding-top: 160px;
     margin-bottom: 16px;
