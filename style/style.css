@@ -153,6 +153,10 @@ main {
     align-items: center;
 }
 
+.article_image {
+    filter: brightness(40%);
+}
+
 div.upper-footer {
     background-color: #D3E0EA;
     height: 250px;
