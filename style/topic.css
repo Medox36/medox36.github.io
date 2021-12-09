@@ -60,13 +60,6 @@ body {
     margin-bottom: 64px;
 }
 
-.separator {
-    border-bottom: black;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 16px;
-}
-
 .progress_part {
     z-index: 1;
     position: sticky;
@@ -82,14 +75,6 @@ body {
     height: 8px;
     background: #276678;
     width: 0;
-}
-
-.big_seperator {
-    height: 10px;
-    background-color: #276678;
-    top: 0;
-    padding: 10px 0;
-    margin-bottom: 10px;
 }
 
 .toStartPage_wrapper {
@@ -119,8 +104,13 @@ body {
     line-height: 60px;
 }
 
+.topic_container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
 .title {
-    padding-top: 160px;
+    padding-top: 260px;
     margin-bottom: 16px;
 }
 
@@ -129,43 +119,77 @@ body {
     padding: 0;
     margin: 0 auto;
     font-size: 40px;
+    text-align: center;
 }
 
 #title_h1 {
     margin-bottom: 20px;
+    font-size: 120px;
+}
+
+.separator {
+    border-bottom: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 16px;
+}
+
+.article_wrapper {
+    border: #1687A7 4px solid;
+    min-height: 120px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_title {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.article {
+    min-width: 300px;
+    background-color: #D3E0EA;
+    min-height: 80px;
+    margin: 20px;
+    max-width: 400px;
 }
 
 .abstract {
-    max-width: 640px;
-    padding: 0;
-    margin: 0 auto 56px;
+    margin: 20px;
+    font-size: 18px;
 }
 
-#abstract {
-    margin-bottom: 16px;
-    font-size: 27px;
-    font-family: Garamond, serif;
+.toArticle {
+    min-height: 40px;
+    min-width: 60px;
+    max-width: 200px;
+    margin: 20px 20px 20px 40px;
+    background-color: #1687A7;
+    display: flex;
+    justify-content: center;
 }
 
-.author {
-    text-align: left;
-    font-size: 15px;
+.toArticle:hover {
+    background-color: #555;
 }
 
-.date {
-    margin-top: 6px;
+.a {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
     font-size: 20px;
 }
 
-.article_text {
-    max-width: 640px;
-    margin: 0 auto;
-}
 
-#text_container {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    font-family: Georgia, serif;
+
+.article_image {
+    margin: 20px;
 }
 
 #to_top {
@@ -186,8 +210,4 @@ body {
 
 #to_top:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-}
-
-.footer {
-
 }
