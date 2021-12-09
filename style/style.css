@@ -56,6 +56,42 @@ body {
     align-items: center;
 }
 
+.progress_part {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.progress_container {
+    height: 8px;
+    background: #ccc;
+}
+
+.progress_bar {
+    height: 8px;
+    background: #276678;
+    width: 0;
+}
+
+#to_top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    right: 30px;
+    background-color: #1687A7; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+    float: left;
+}
+
+#to_top:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
 
 main {
     height: 1900px;
