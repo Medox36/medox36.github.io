@@ -188,6 +188,76 @@ body {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.footer {
+div.upper-footer {
+    background-color: #D3E0EA;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 
+div.bottom-footer {
+    border-top: 8px solid #276678;
+    background-color: #1687A7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex:1;
+}
+
+.footer-content a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid ;
+    border-color: #276678;
+}
+
+.footer-content span {
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-content p {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.footer-content a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #1687A7;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .footer-content a:hover::before{
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
 }
