@@ -17,14 +17,45 @@ body {
     min-height: 100vh;
 }
 
-header {
-    height: 150px;
+.header {
     min-height: 56px;
     margin: 0;
-    background-color: #D3E0EA;
-    display: flex;
-    justify-content: center;
 }
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    padding: 0 40px;
+    max-width: 1200px;
+    border-bottom: 4px solid #1687A7;
+    background-color: #D3E0EA;
+}
+
+.header_left {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#menu_button {
+    border: none;
+    background-color: #1687A7;
+    height: 56px;
+}
+
+.header_logo {
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header_right {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 
 main {
     height: 1900px;
