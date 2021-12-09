@@ -128,7 +128,7 @@ body {
     max-width: 640px;
     padding: 0;
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #title_h1 {
@@ -139,17 +139,6 @@ body {
     max-width: 640px;
     padding: 0;
     margin: 0 auto 56px;
-}
-
-#abstract {
-    margin-bottom: 16px;
-    font-size: 27px;
-    font-family: Garamond, serif;
-}
-
-.author {
-    text-align: left;
-    font-size: 15px;
 }
 
 .date {
@@ -166,6 +155,22 @@ body {
     font-size: 1.25rem;
     line-height: 1.6;
     font-family: Georgia, serif;
+}
+
+.list {
+    list-style-type: square;
+}
+
+.list_item {
+    font-size: 25px;
+}
+
+.subtitle {
+    font-size: 55px;
+}
+
+.text {
+    font-size: 20px;
 }
 
 #to_top {
@@ -213,7 +218,7 @@ div.bottom-footer {
     flex:1;
 }
 
-.footer-content a {
+.footer-content a, .list a {
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -230,8 +235,8 @@ div.bottom-footer {
 }
 
 .footer-content span {
-    padding-bottom: 0px;
-    margin: 0px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 address {
@@ -239,11 +244,11 @@ address {
 }
 
 .footer-content p {
-    margin-top: 0px;
+    margin-top: 0;
     font-weight: bold;
 }
 
-.footer-content a::before{
+.footer-content a::before, .list a::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -255,7 +260,7 @@ address {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .footer-content a:hover::before{
+    .footer-content a:hover::before, .list a:hover::before{
         left: 0;
         right: auto;
         width: 100%;
