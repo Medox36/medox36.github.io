@@ -15,11 +15,13 @@
         <div class="header">
             <div class="header_main">
                 <div class="header_left">
-                    <button id="menu_button" onclick="" title="Menü">
-                        <svg viewBox="0 0 48 48" class="icon--menu svg-icon svg-fill" style="width:48px;height:48px;">
-                            <path fill="#000000" stroke="none" d="M16 18h16v1H16zm0 5h16v1H16zm0 5h16v1H16z"></path>
-                        </svg>
-                    </button>
+                    <div class="dropdown">
+                        <button id="menu_button" onclick=drop() title="Menü">
+                            <svg viewBox="0 0 48 48" class="icon--menu svg-icon svg-fill" style="width:48px;height:48px;">
+                                <path fill="#000000" stroke="none" d="M16 18h16v1H16zm0 5h16v1H16zm0 5h16v1H16z"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
                 <div class="header_logo">
                     <a href="index.html" title="Zurück zur Startseite">
@@ -41,6 +43,14 @@
         </div>
         <main>
             <abstract>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
                 <img src="images/ibm_logo.png" width="500px" alt="IBM image">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/UWQd-NZcb6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </abstract>
