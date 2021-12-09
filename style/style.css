@@ -106,7 +106,7 @@ abstract {
 
 div.upper-footer {
     background-color: #D3E0EA;
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
