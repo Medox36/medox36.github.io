@@ -147,14 +147,97 @@ svg {
 }
 
 main {
-    height: 2900px;
+    height: 3400px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.logo {
+    margin-bottom: 50px;
+}
+
+main p {
+    font-family: Georgia, serif;
+    font-size: 1.25rem;
+    margin: 5px;
+}
+
+main h1 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: Garamond, serif;
+    font-size: 50px;
+}
+
+main h2 {
+    font-family: Garamond, serif;
+    font-size: 40px;
+}
+
+.divider {
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-top: 4px solid #1687A7;
+
+}
+
+main h3 {
+    background-color: #D3E0EA;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Garamond, serif;
+    font-size: 30px;
+}
+
+.quelle {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.container {
+    position: relative;
+    transition:transform 1s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
 .article_image {
     filter: brightness(40%);
+}
+
+.container h4 {
+    position: absolute;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: underline;
+    color: white;
+    padding: 20px 40px;
+}
+
+.fortschritt {
+    bottom: 100px;
+    right: 160px;
+}
+.boerse {
+    bottom: 80px;
+    right: 180px;
+}
+.finanzen {
+    bottom: 70px;
+    right: 170px;
+}
+.unternehmen {
+    bottom: 90px;
+    right: 145px;
+}
+.unternehmensbereich {
+    bottom: 100px;
+    right: 100px;
 }
 
 div.upper-footer {

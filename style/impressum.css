@@ -293,7 +293,14 @@ address {
     font-weight: bold;
 }
 
-.footer-content a::before, .list a::before{
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+a::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -305,7 +312,7 @@ address {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .footer-content a:hover::before, .list a:hover::before{
+    a:hover::before{
         left: 0;
         right: auto;
         width: 100%;
