@@ -135,6 +135,7 @@ svg {
     height: 60px;
     background-color: #1687A7;
     text-align: center;
+    transition: background-color 1s ease-in-out;
 }
 
 .toStartPage:hover {
@@ -235,8 +236,6 @@ svg {
     font-size: 20px;
 }
 
-
-
 .article_image {
     margin: 20px 20px 0;
     max-width: 592px;
@@ -260,6 +259,7 @@ svg {
     padding: 15px; /* Some padding */
     font-size: 18px; /* Increase font size */
     float: left;
+    transition: background-color 1s ease-in-out;
 }
 
 #to_top:hover {
