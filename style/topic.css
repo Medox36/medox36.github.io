@@ -189,13 +189,17 @@ svg {
     flex-direction: column;
 }
 
+.article_wrapper a {
+    margin-left: 20px;
+}
+
 .article_title {
     font-size: 60px;
     margin: 20px;
 }
 
 .article {
-    width: 600px;
+    width: 592px;
     background-color: #D3E0EA;
     min-height: 80px;
     margin: 20px;
@@ -235,11 +239,11 @@ svg {
 
 .article_image {
     margin: 20px 20px 0;
-    max-width: 600px;
+    max-width: 592px;
 }
 
 .article_image img {
-    max-width: 600px;
+    max-width: 592px;
 }
 
 #to_top {
