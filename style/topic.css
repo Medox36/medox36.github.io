@@ -151,7 +151,7 @@ svg {
 }
 
 .topic_container {
-    max-width: 850px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
@@ -161,7 +161,7 @@ svg {
 }
 
 #title {
-    max-width: 850px;
+    max-width: 640px;
     padding: 0;
     margin: 0 auto;
     font-size: 40px;
@@ -170,7 +170,7 @@ svg {
 
 #title_h1 {
     margin-bottom: 20px;
-    font-size: 120px;
+    font-size: 100px;
 }
 
 .separator {
@@ -186,7 +186,7 @@ svg {
     margin-bottom: 80px;
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .article_title {
@@ -199,7 +199,7 @@ svg {
     background-color: #D3E0EA;
     min-height: 80px;
     margin: 20px;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .abstract {
